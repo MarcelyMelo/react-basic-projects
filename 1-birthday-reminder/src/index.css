@@ -22,7 +22,6 @@ body {
   flex-direction: column;
   background-color: snow;
   padding: 2rem;
-  align-items: center;
   border-radius: 1rem;
 }
 .container img {
