@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Space Mono';
+}
+
+$clr-pink: #F28AB2;
+
+body{
+    background-color: $clr-pink;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    background-color: snow;
+    padding: 2rem;
+    align-items: center;
+    border-radius: 1rem;
+    img{
+        width: 70px;
+        border-radius: 5rem;
+    }
+    h3{
+        
+        margin-bottom: 1.5rem;
+    }
+    button{
+        margin-top: 1rem;
+        border-radius: .5rem;
+        padding: .9rem;
+        background-color: $clr-pink;
+        border: none;
+        font-weight: 700;
+        color: snow;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background 1s linear;
+        border: $clr-pink 2px solid;
+    }
+    button:hover{
+        background-color: transparent;
+        color: $clr-pink;
+        border: $clr-pink 2px solid;
+    }
+}
+.person{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    p{
+        font-weight: 300;
+    }
+}
