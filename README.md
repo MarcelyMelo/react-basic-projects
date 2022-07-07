@@ -1,3 +1,4 @@
 # react-basic-projects
 
-https://react-basic-projects.vercel.app/
+Dark Mode | https://darkmode-tan.vercel.app/
+Birthday Reminder | https://birthday-reminder-pied-xi.vercel.app/
